@@ -1,6 +1,6 @@
 import React from "react";
 import { Card } from "./card";
-import Boxe from "../../assets/Boxe.png";
+import boxe from "../../assets/boxe.png";
 import heart from "../../assets/heart.png";
 import correr from "../../assets/correr.png";
 import peso from "../../assets/peso.png";
@@ -10,7 +10,7 @@ import Image from "next/image";
 export const Program = () => {
   const data = [
     {
-      icon: Boxe,
+      icon: boxe,
       title: "Strenth",
       description: "Embrace the essence of strength as we delve into its various dimensions: physical, mental, and emotional."
 
